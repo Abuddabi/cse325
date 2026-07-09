@@ -6,3 +6,7 @@ obj/
 *.user
 # OS
 .DS_Store
+
+*.db
+*.db-shm
+*.db-wal
