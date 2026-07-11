@@ -51,6 +51,30 @@ public static class SeedData
             Genre = "Western",
             Price = 3.99M,
             Rating = "PG"
+          },
+          new Movie
+          {
+            Title = "Titanic",
+            ReleaseDate = DateTime.Parse("1997-12-19"),
+            Genre = "Romance",
+            Price = 10.99M,
+            Rating = "PG-13"
+          },
+          new Movie
+          {
+            Title = "Spider-Man",
+            ReleaseDate = DateTime.Parse("2002-5-3"),
+            Genre = "Action",
+            Price = 12.99M,
+            Rating = "PG-13"
+          },
+          new Movie
+          {
+            Title = "Shrek",
+            ReleaseDate = DateTime.Parse("2001-5-18"),
+            Genre = "Animation",
+            Price = 9.99M,
+            Rating = "PG"
           }
       );
       context.SaveChanges();
